@@ -1,0 +1,8 @@
+#!/bin/bash
+
+meow=100
+file=0
+while [ $file -le 100 ] 
+do
+	echo 1
+done

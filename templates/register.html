@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="utf-8">
+    <title>Register</title>
+</header>
+
+<style>
+    body{
+        background-image: url('./static/background.gif');
+        color: green;
+    }
+    a {
+            color:greenyellow;
+    }
+</style>
+
+<body>
+    <div style="text-align: center;" >
+        <img src='./static/welcome2.gif'>
+        <form class="" action="register.php" method="post" enctype=multipart/form-data>
+            <input type="text" name="name" value="" placeholder="輸入名字"><br>
+            <input type="password" name="password" value=""panel placeholder="輸入密碼"><br>
+            <input type="password" name="pwcheck" value=""panel placeholder="再次輸入密碼"><br>
+            <input type="hidden" name="csrf_token" value="{{token}}">
+            照片：<input type=file name=photo>
+            <p>照片請傳正方形ㄉ圖檔，不然圖片會被壓扁ㄛ！</p>
+            <p>請使用jpg格式ㄉ圖檔</p>
+            <p>一定要上傳照片才能註冊ㄛ！</p>
+
+            <br>
+            <input type="submit" name="" value="註冊"><br>
+        </form>
+        <br><br><br>
+        <a href='/'><img src='./static/home.gif'></a>
+    </div>
+</body>
+
+</html>

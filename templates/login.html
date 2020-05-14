@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="utf-8">
+    <title>Login</title>
+</header>
+
+
+<style>
+    body{
+        background-image: url('./static/background.gif');
+        color: green;
+    }
+    a {
+            color:greenyellow;
+    }
+</style>
+
+
+<body>
+    <div style="text-align: center;" valign="center">
+        <img src='./static/welcome3.gif'>
+        <form class="" action="login.php" method="post">
+            <input type="text" name="name" value="" placeholder="輸入名字"><br>
+            <input type="password" name="password" value="" placeholder="輸入密碼"><br>
+            <input type="hidden" name="csrf_token" value="{{token}}">
+            <input type="submit" name="" value="登入"><br>
+        </form>
+        <p>還沒帳號ㄇ？<br>
+        <a href="./register.php"><img src='./static/register.gif'></a>
+
+      
+        
+        <br><br><br>
+        <a href='/'><img src='./static/home.gif'></a>
+    </div>
+</body>
+
+</html>

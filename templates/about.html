@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="utf-8">
+    <title>關於{{name}}</title>
+</header>
+
+<style>
+    body{
+        background-image: url('./static/background.gif');
+        color: green;
+    }
+    a {
+            color:greenyellow;
+    }
+</style>
+
+
+<body>
+    <div style="text-align: center;">
+        <h1>關於{{name}}</h1>
+        <img src='./_uploads/photos/{{uid}}.jpg' width="50" height="50">
+        <br>發文資料<br>
+        <br>
+        <table border="1" align="center">
+            <tr>
+                <td>Time</td>
+                <td>IP</td>
+            </tr>
+        {%for i in msg%}
+        <tr>
+            <td>{{i.time}}</td>
+            <td>{{i.ip}}</td>
+        </tr>
+        {%endfor%}
+    </table>
+    <br><br>
+    <a href='/message_board.php'><img src='./static/back.gif'></a>
+
+    </div>
+</body>
