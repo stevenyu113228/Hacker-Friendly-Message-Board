@@ -10,17 +10,18 @@
 ### 首頁
 - 網頁主要ㄉ風格採用大概20年前ㄉ舊風格，下載ㄌ很多古代ㄉ網頁素材
 ![](https://i.imgur.com/txBTaAg.png)
-### 留言板
-![](https://i.imgur.com/LG7G9L0.jpg)
+
 
 ## 好玩ㄉ功能
 這些好玩ㄉ功能都讓各種來攻擊ㄉ同學玩ㄌ很久XDD
 
 ### 網頁伺服器
 - 我ㄉ網頁副檔名都使用.php
+
 ![](https://i.imgur.com/gA2Qhr5.png)
 
 - Header 裡面標注的也是PHP + Apache
+
 ![](https://i.imgur.com/jp8OqOz.png)
 
 - 身為一個攻擊者，會根據不同的網頁伺服器採取不同的攻擊手段。但是事實上我採用的是Python的Flask，而不是PHP。透過這種手段來誤導駭客，做出一些浪費時間ㄉ事XDDD
